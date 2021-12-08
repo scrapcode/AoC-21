@@ -10,7 +10,9 @@ namespace AoC_21
     {
         public static void Main()
         {
-            Day3_1.Main();
+            var day = new Day3_2();
+
+            Console.Out.WriteLine($"answer: {day.Execute()}");
         }
     }
 }
